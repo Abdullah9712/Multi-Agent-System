@@ -1,0 +1,11 @@
+google-genai
+python-dotenv
+requests
+beautifulsoup4
+markdown
+python-docx
+python-pptx
+reportlab
+duckduckgo-search
+ddgs
+trafilatura

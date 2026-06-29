@@ -1,0 +1,63 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Keep an example env file in the repo
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Application output / generated files
+output/
+*.pdf
+*.pptx
+
+# Data
+data/raw/
+data/input/
+# If you want to ignore generated cleaned data, uncomment the next line
+# data/cleaned/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Local DBs / sqlite
+*.db
+*.sqlite3
+
+# Packaging / builds
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Credentials / tokens
+credentials.json
+service_account.json
+token.json
